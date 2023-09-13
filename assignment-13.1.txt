@@ -1,0 +1,69 @@
+1.
+
+l1=['Java','Python','sql','C']
+print(l1)
+
+2.
+
+l1=[10,'Python',20,'C']
+print(l1)
+
+3.
+
+mylist = ["Java", "C", "Python"]
+print(mylist[2])
+
+
+4.
+
+mylist = ["Java", "SQL", "C","Reactnative","Javascrip","Python"]
+mylist[1]="NoSQL"
+mylist[3]="Flutter"
+print(mylist)
+
+
+5.
+
+mylist = ["Java", "SQL", "C","Reactnative"]
+mylist.append("python")
+print(mylist)
+
+6.
+
+firstlist = ["Java", "Python", "SQL"]
+secondlist = ["C", "Cpp", "NoSQL"] 
+for i in secondlist:
+     firstlist.append(i)
+print(firstlist)
+
+
+
+7.
+
+mylist = ["Java", "SQL", "C","Reactnative","Javascript","python"]
+k=0
+for  i in mylist:
+    print(k,i,sep=" ")
+    k+=1
+
+8.
+
+mylist = ["Java", "SQL", "C","Reactjs","Javascript","python"]
+mylist.sort()
+print(mylist)
+
+9.
+
+n=int(input("enter no. of city you want add in the list->"))
+l1=[]
+for i  in range(0,n):
+    a=input("enter the city name  ->")
+    l1.append(a)
+print(l1)
+
+
+10.
+print("enter the  Number->")
+l1=list(input())
+
+print(l1)

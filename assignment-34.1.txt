@@ -1,0 +1,182 @@
+1.
+
+var firstName="Aditya";
+var lastName="Singh";
+const country="India";
+const age=20;
+const ismaried=false;
+const year=2000;
+console.log(firstName);
+console.log(lastName);
+console.log(country);
+console.log(age);
+console.log(ismaried);
+console.log(year);
+console.log(typeof(firstName));
+console.log(typeof(lastName));
+console.log(typeof(country));
+console.log(typeof(age));
+console.log(typeof(ismaried));
+console.log(typeof(year));
+
+
+
+2.
+
+--a------
+
+let v=true;
+
+if (v) {
+    console.log('v is truthy!');
+  }
+else
+{
+    console.log('v is falsy')
+}
+  
+--b--
+
+let v=false;
+
+if (v) {
+    console.log('v is truthy!');
+  }
+else
+{
+    console.log('v is falsy')
+}  
+
+
+
+
+
+
+
+
+
+3.
+
+a-true
+b-false
+c-true
+d-true
+e-false
+f-true
+g-true
+h-false
+i-true
+j-true
+
+
+4.
+
+ const a= 23;
+ if(a%2==0)
+ {
+    console.log("number is even");
+ }
+ else
+ {
+    console.log("number is odd");
+ }
+
+5.
+ let s=40;
+ if(s>=80&&s<=100)
+ {
+    console.log("grade A");
+ }
+ else if(s>=70&&s<=89)
+ {
+    console.log("grade B");
+ }
+ else if(s>=60&&s<=69)
+ {
+    console.log("grade c");
+ }
+ else if(s>=50&&s<=59)
+ {
+    console.log("grade d");
+ }
+ else if(s>=0&&s<=49)
+ {
+    console.log("grade f");
+ }
+
+6.
+
+let s=4;
+switch(s)
+{
+    
+    case 1:
+        console.log("no. of days is 31");
+        break;
+    case 3:
+        console.log("no. of days is 31");
+        break;
+    case 5:
+        console.log("no. of days is 31");
+        break;
+    case 7:
+        console.log("no. of days is 31");
+        break;    
+     case 8:
+        console.log("no. of days is 31");
+        break;    
+    case 10:
+        console.log("no. of days is 31");
+        break;   
+    case 13:
+            console.log("no. of days is 31");
+            break;       
+    case 2:
+        console.log("no. days is 28 or 29 in leap year");
+        break;
+    case 4 :
+        console.log("no.of days is 30");
+        break;
+     case 6 :
+        console.log("no.of days is 30");
+        break;
+    case 9 :
+        console.log("no.of days is 30");
+        break;
+     case 11 :
+        console.log("no.of days is 30");
+        break;
+    default:
+        console.log("wrong months");
+        
+
+ }
+
+7.
+let date1=new Date();
+console.log(`${date1.getFullYear()}-${date1.getMonth()}-${date1.getDate()} ${date1.getHours()}:${date1.getMinutes()}`);
+console.log(`${date1.getDate()}-${date1.getMonth()}-${date1.getFullYear()} ${date1.getHours()}:${date1.getMinutes()}`);
+console.log(`${date1.getDate()}/${date1.getMonth()}/${date1.getFullYear()} ${date1.getHours()}:${date1.getMinutes()}`);
+
+8.
+
+
+let ru=82.23;
+let dollar=5;
+let result=dollar*ru;
+console.log(`ruppes is ${result}`);
+
+9.
+
+let ru=6693;
+let result=ru%10;
+console.log(` ${result}`);
+
+
+10.
+
+let radius=10;
+let area=3.14*radius*radius;
+console.log(`Area of circle is ${area}  having the radius ${radius}`);
+
+

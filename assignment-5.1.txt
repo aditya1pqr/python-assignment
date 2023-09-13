@@ -1,0 +1,73 @@
+1.
+
+a=int(input("enter  a number "))
+b=a//10
+print(b)
+
+2.
+
+a=int(input("enter  a number "))
+b=a%10
+print(b)
+
+3.
+
+a=int(input("enter a number "))
+b=int(input("enter a number "))
+print("number before swap")
+print("a=",a,"b=",b) 
+c=a
+a=b
+b=c
+print("number after swap")
+print("a=",a,"b=",b) 
+
+4.
+
+x=int(input("enter a number "))
+y=int(input("enter a number "))
+z=x**y
+print(z)
+
+
+
+5.
+
+x=int(input("enter three digit number "))
+z=x//100
+print(z)
+
+6.
+
+x=int(input("enter three digit number "))
+z=x%100
+k=z//10
+print(k)
+
+
+7.
+
+x=int(input("enter three digit number "))
+z=x%10
+print(z)
+
+8.
+
+l=[10,"my home",30,40]
+a="my home" in l
+print(a)
+
+9.
+
+l=[10,"my home",30,40]
+a="m"  not in l
+print(a)
+
+
+10.
+a=10
+b=10
+print(id(a),id(b))
+x=a is b
+print(x)
+

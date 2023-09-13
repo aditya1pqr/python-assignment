@@ -1,0 +1,80 @@
+1.
+
+a=int(input("Enter the number "))
+if a>0:
+    print("number is positive")
+else:
+    print("number is non-positive")
+
+2.
+
+a=int(input("Enter the number "))
+if a%5==0:
+    print("number is divisible")
+else:
+    print("number is not divisible")
+
+3.
+
+a=int(input("Enter the number "))
+if a%2==0:
+    print("number is even")
+else:
+    print("number is odd")    
+4.
+
+a=int(input("Enter the first number "))
+b=int(input("enter the second number "))
+if a>=b:
+    print("greater number ",a)
+else :
+    print("greater number  is ",b)            
+
+5.
+
+a=input("Enter the first word ")
+b=input("enter the second word ")
+if a>b:
+    print(b)
+    print(a)
+else:
+    print(a)
+    print(b)    
+
+6.
+a=int(input("Enter the  number "))
+
+if (a>99 and a<1000 ):
+    print("number is three digit number ")
+else :
+    print("number is not three digit number")
+        
+   
+
+7.
+
+a=int(input("Enter the  number "))
+
+if a>0:
+    print("number is positive ")
+elif  a<0:
+    print("number is negative")
+else:
+    print("number is zero") 
+
+
+10.
+
+a=int(input("Enter the first number "))
+b=int(input("Enter the second number "))
+c=int(input("Enter the third number "))
+
+if a>=b and a>=c:
+    print("first number is greater ",a)
+elif b>=a and b>=c :
+    print(" second number is greater",b)
+elif c>=a and c>=a:
+    print("third number is greater ",c)    
+   
+        
+   

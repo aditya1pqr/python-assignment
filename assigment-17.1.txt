@@ -1,0 +1,80 @@
+1.
+
+
+s1 ={"html","java","c++","javascrift"}
+print(s1)
+
+
+2.
+
+s1 ={"aditya",20,2727272727,"lucknow"}
+print(s1)
+
+
+
+3.
+
+s1 ={"html","java","c++","javascrift"}
+print(s1)
+print(type(s1))
+
+
+4.
+
+s1={"Java","Python", "Django"}
+for i in  s1 :
+      if i=="Python":
+            print("Element found")
+
+
+
+5.
+
+set ={"Java", "Python", "SQL"}
+secondset= {"C", "Cpp", "NoSQL"}
+for i in secondset:
+       set.add(i)
+print(set)
+
+
+
+6.
+
+set ={"Javascript", "Python", "SQL"}
+list =["C", "java"]
+for i in list:
+       set.add(i)
+print(set)
+
+
+7.
+
+set ={"Javascript", "Python", "SQL"}
+for i in set:
+      if i=="SQL":
+           k=i
+      
+set.remove(k)
+print(set)
+
+
+8.
+
+set ={"Javascript", "Python", "SQL"}
+set.clear()
+print(set)
+
+
+9.
+
+set ={"Javascript", "Python", "SQL"}
+for i in set:
+      print(i)
+      
+
+10.
+
+
+set ={10,20,30,40,50,60}
+print(max(set))
+print(min(set))

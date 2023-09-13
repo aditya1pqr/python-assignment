@@ -1,0 +1,82 @@
+1.
+
+n=int(input("enter the number you want add"))
+sum=0
+for e in range(1,n+1):
+    sum=sum+e
+print(sum)
+
+
+2.
+
+n=int(input("enter the number you want add"))
+sum=0
+for e in range(1,n+1):
+    sum=sum+(e*e)
+print(sum)
+
+
+3.
+
+n=int(input("enter the number you want add"))
+sum=0
+for e in range(1,n+1):
+    sum=sum+(e**3)
+print(sum)
+
+4.
+
+n=2*(int(input("enter the number you want add")))
+sum=0
+for e in range(1,n+1,2):
+    sum=sum+(e)
+print(sum)
+
+
+     
+5.
+
+n=2*(int(input("enter the number you want add")))
+sum=0
+for e in range(2,n+1,2):
+    sum=sum+(e)
+print(sum)
+
+6.
+n=int(input("enter the number you want  to factorial "))
+fact=1
+for e in range(n,0,-1):
+    fact=fact*(e)
+print("factorial",fact)
+
+7.
+n=int(input("enter the number you want to count "))
+count=0
+while n!=0:
+        n=n//10
+        count=count+1
+print("number of digit is ",count)
+
+8.
+
+n=int(input("enter the number you want to add digit wise "))
+count=0
+while n!=0:
+        k=n%10
+        n=n//10
+        count=count+k
+print("sum of digit is ",count)
+
+
+     
+   
+     
+   
+
+
+     
+   
+     
+   
+   
+

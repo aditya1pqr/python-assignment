@@ -1,0 +1,123 @@
+1.
+
+n=int(input("enter the number you want to reverse "))
+while n!=0:
+        k=n%10
+        n=n//10
+        print(k,end='')
+
+
+
+     
+2.
+n=int(input("enter the number you want to reverse "))
+for i in range(2,(n//2)+1):
+    if n%i==0:
+        print("number is not prime")
+        break
+else:
+    print("number is prime")
+    
+    
+3.
+print("total number of prime number under 100")
+
+for a in range(2,101):
+    n=a
+    flag=0
+    for i in range(2,(a//2)+1):
+        if n%i==0:
+            flag=1            
+        
+    if(flag==0):
+       print(n)        
+    
+
+
+4.
+start=int(input("Enter number  from  which prime number start number"))
+end=int(input("Enter number  to  which prime number start number"))
+
+for a in range(start,end+1):
+    start=a
+    flag=0
+    for i in range(2,(a//2)+1):
+        if start%i==0:
+            flag=1            
+        
+    if(flag==0):
+       print(start)
+            
+    
+     
+   
+     
+5.
+n=int(input("Enter number of number"))
+
+for a in range(n,n*n):
+    n=a
+    flag=0
+    for i in range(2,(a//2)+1):
+        if n%i==0:
+            flag=1            
+        
+    if(flag==0):
+       print(n)
+       break        
+    
+     
+  
+
+6.
+N=int(input("Enter number of number"))
+
+for a in range(2,N+1):
+    n=a
+    flag=0
+    for i in range(2,(a//2)+1):
+        if n%i==0:
+            flag=1            
+        
+    if(flag==0):
+       print(n)        
+    
+7.
+
+n=int(input("enter the number want print upto fibo. series"))
+a=0
+b=1
+for i in range(0,n):
+    print(a,end=' ')
+    sum=a+b
+    a=b
+    b=sum
+    
+    
+   
+8.
+
+a=int(input("enter the numbe first number"))
+b=int(input("enter the numbe first number"))
+if a>b:
+    j=a
+else:
+    j=b    
+n=a
+k=b
+flag=0
+for i in range(2,j):
+    if n%i==0 or k%i==0:
+        flag=1
+        break
+if flag==0:
+    print("number is co-prime")
+else:
+    print("number is not co prime")    
+
+    
+    
+   
+     
+   
+   

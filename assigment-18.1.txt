@@ -1,0 +1,74 @@
+1.
+
+dic1={"name":"aditya","age":12,"gender":"male"}
+print(dic1)
+
+
+2.
+
+dic1={"name":"aditya","age":12,"gender":"male"}
+print(dic1["name"])
+
+
+3.
+
+dic1={"name":"aditya","age":12,"gender":"male"}
+for i in dic1:
+    print(dic1[i])
+
+
+4.
+
+dic1={"name":"aditya","age":12,"gender":"male"}
+dic1["name"]="suresh"
+print(dic1)
+
+
+5.
+
+dic1={"name":"aditya","age":12,"gender":"male"}
+for i in dic1:
+    print(i)
+
+6.
+
+dic1={"name":"aditya","age":12,"gender":"male",3:{102:"aadi",103:"manav","date":12},4:{10:"ad",20:"bc"}}
+print(dic1)
+
+
+7.
+
+dict1={"name":"aditya","age":12,"gender":"male"}
+dict2={102:"aadi",103:"manav","date":12}
+dict3={10:"ad",20:"bc"}
+dict={"dict1":dict1,"dict2":dict2,"dict3":dict3}
+print(dict)
+
+
+8.
+
+
+list=[10,20,30,40,50]
+l1=["aduta","agsghs","gsg","sjsj","ddh"]
+dict={}
+j=0
+for i in list:
+    dict[i]=l1[j]
+    j+=1
+print(dict)
+
+
+
+9.
+
+dict1={"name":"aditya","age":12,"gender":"male"}
+dict2={102:"aadi",103:"manav","date":12}
+
+dict={"dict1":dict1,"dict2":dict2}
+print(dict)
+
+
+10.
+
+sample_dict = {'C': 92,'Java': 66,'Python': 85}
+print(min(sample_dict.values()))

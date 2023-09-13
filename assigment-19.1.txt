@@ -1,0 +1,117 @@
+1.
+
+def display():
+    print("MySirG")
+display()    
+    
+
+2.
+
+def display( x, y):
+    print("x value is ",x)
+    print("x value is ",y)
+
+display(4,5)    
+    
+
+
+3.
+
+def f1(x,y=0,z=0):
+    sum=x+y+z
+    return sum
+print(f1(4))
+print(f1(4,5))
+print(f1(4,5,6))
+
+
+4.
+
+def f1(a,b):
+    print("a=",a,"b=",b)
+f1(b=2,a=1)
+
+
+5.
+
+
+def f1(l):
+    for i in l:
+        print(i)
+l1=[10,20,30,40,50]
+f1(l1)
+
+
+
+6.
+
+
+def f1(l):
+    a=l[0]
+    for i in l:
+        if(a<=i):
+            a=i
+    print("greatest no. is ",a)        
+l1=[10,20,30,40,50]
+f1(l1)
+
+
+7.
+
+
+def f1(l):
+    sum=0
+    for i in l:
+        sum=sum+i
+        
+    print("sum of  no. is ",sum)        
+l1=[10,20,30,40,50]
+f1(l1)
+
+
+8.
+
+
+def f1(l):
+    prt=1
+    for i in l:
+        prt=prt*i
+        
+    print("product of  no. is ",prt)        
+l1=[10,20,30,40,50]
+f1(l1)
+
+
+
+9.
+
+
+
+def f1(number,rang):
+    flag=0
+    for i in range(0,rang):
+        if i==number:
+           flag=1
+           break
+    if flag==1:       
+       print("number is found in the given range")
+    else:
+        print("number is not found")                
+
+f1(10,30)
+
+
+
+
+
+10.
+
+
+def f1(l):
+    if l%2==0:
+        print("no. is Even")
+    else:
+        print("no. is Odd")    
+
+a=int(input("Enter a number"))          
+f1(a)

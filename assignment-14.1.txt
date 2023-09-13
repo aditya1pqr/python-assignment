@@ -1,0 +1,63 @@
+1.
+n=int(input("Enter the number"))
+l1=[i  for i in range(1,n+1)]
+print(l1)
+
+
+
+
+
+2.
+n=2*(int(input("Enter the number")))
+l1=[i  for i in range(1,n+1,2)]
+print(l1)
+
+3.
+
+n=2*(int(input("Enter the number")))
+l1=[i  for i in range(2,n+1,2)]
+print(l1)
+
+
+4.
+
+n=2*(int(input("Enter the number")))
+l1=[i  for i in range(2,n+1,2)]
+print(l1)
+a=max(l1)
+print("maximum element is ->",a)
+
+
+5.
+
+l1=[2220,30,40,252,4545]
+print(l1)
+a=min(l1)
+print("minimum element is ->",a)
+
+
+6.
+
+l1=[2220,30,40,252,4545]
+print(l1)
+a=sum(l1)
+print("sum of element is ->",a)
+
+
+7.
+
+l1=[2220,30,"Java",252,4545,3.7]
+k=0
+for i in l1:
+    if type(i)==str or type(i)==float:
+        del l1[k]
+    k+=1
+        
+print(l1)        
+
+
+10.
+
+l1=[2220,30,252,4545]
+l1.sort()
+print(l1)       

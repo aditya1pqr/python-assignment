@@ -1,0 +1,98 @@
+1.
+
+#print learning python
+print("Learning Python")
+
+2.
+'''  print multiple values '''
+a=10
+b="hellow"
+c=10+1j
+d=5.0
+print(a,type(a))
+print(b,type(b))
+print(c,type(c))
+print(d,type(d))
+
+
+3.
+
+"""   print multiple values """
+a=10
+b="hellow"
+c=10+1j
+d=5.5
+e=True
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+
+4.
+
+a=10
+b=10
+print(id(a),id(b))
+
+5.
+
+
+a=10
+b=10.5
+c="hellow"
+d=3+1j
+print("value of a is",a,"id of a=",id(a),"and type is", type(a))
+print("value of b is",b,"id of b=",id(b),"and type is", type(b))
+print("value of c is",c,"id of c=",id(c),"and type is", type(c))
+print("value of d is",d,"id of d=",id(d),"and type is", type(d))
+
+6.
+
+import keyword
+print(keyword.kwlist)
+
+
+
+7.
+
+
+help> keywords
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not                 
+
+
+8.
+
+#file1== A1 and k =10
+
+#file2==A0
+
+import A1
+print(A1.k)
+
+9.
+
+True
+False
+None
+
+10.
+
+a=10
+b=7
+c=2023
+time=9
+m=30
+print(a,b,c,sep="-",end=" and ")
+print(time,m,sep=":")
